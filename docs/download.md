@@ -106,8 +106,8 @@
 
   <div class="divider-line"></div>
 
-  <a href="/others/" class="next-section">
+  <a href="/HowToSayQuesion/" class="next-section">
     <span class="cat-text">下一页</span>
-    <span class="title-text">如何提问问题（提问的智慧）</span>
+    <span class="title-text">如何提问问题</span>
   </a>
 </div>

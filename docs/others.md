@@ -95,17 +95,17 @@
 <!-- HTML 结构 -->
 <div class="mobile-pagination-card">
   <!-- 左侧：上一章 -->
-  <a href="/download/" class="prev-section">
+  <a href="/HowToSayQuesion/" class="prev-section">
     <span class="cat-text">上一页</span>
-    <span class="title-text">如何提问问题（提问的智慧）</span>
+    <span class="title-text">如何提问问题</span>
   </a>
 
   <!-- 中间分隔线（可选，如果不需要可以删掉<div class="divider-line"></div>这一行） -->
   <div class="divider-line"></div>
 
   <!-- 右侧：下一章 -->
-  <a href="/QQbot/" class="next-section">
+  <a href="/" class="next-section">
     <span class="cat-text">下一页</span>
-    <span class="title-text">QQ机器人说明</span>
+    <span class="title-text">首页</span>
   </a>
 </div>
