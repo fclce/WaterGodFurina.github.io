@@ -19,13 +19,11 @@
 1.QQ频道：
   
 - FCL Fold Craft Launcher玩家社区：FCL6969669
-  
 - FCL玩家社区：FCL1313157
   
 2.QQ群聊： 
   
 - Fold Craft Launcher玩家交流1群：743460071
-  
 - Fold Craft Launcher玩家交流2群：743746086
   
 <style>
