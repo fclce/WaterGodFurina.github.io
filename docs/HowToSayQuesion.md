@@ -1,3 +1,8 @@
+---
+sidebar_position: 5
+title: 如何提问问题（提问的智慧）
+---
+
 # 提问的智慧
 
 > 注:此文章为GitHub转载，方便某些用户能看此内容  
@@ -53,7 +58,7 @@ Copyleft 2001 by D.H.Grand(nOBODY/Ginux), 2010 by Gasolin, 2015 by Ryan Wu
 
 （欢迎对本指南提出改进意见。你可以把你的建议发送至 [esr@thyrsus.com](mailto:esr@thyrsus.com) 或 [respond-auto@linuxmafia.com](mailto:respond-auto@linuxmafia.com)。然而请注意，本文并非[网络礼节](http://www.ietf.org/rfc/rfc1855.txt)的通用指南，而我们通常会拒绝无助于在技术论坛得到有用答案的建议）。
 
-## 在提问之前 {#在提问之前}
+## 在提问之前
 
 在你准备要通过电子邮件、新闻群组或者聊天室提出技术问题前，请先做到以下事情：
 
@@ -249,7 +254,7 @@ Stack Exchange 已经成长到[超过一百个网站](https://stackexchange.com/
 
 [Simon Tatham](http://www.chiark.greenend.org.uk/~sgtatham/) 写过一篇名为《[如何有效地报告Bug](http://www.chiark.greenend.org.uk/~sgtatham/bugs-cn.html)》的出色文章。强力推荐你也读一读。
 
-### 话不在多而在精 {#话不在多而在精}
+### 话不在多而在精
 
 你需要提供精确有内容的信息。这并不是要求你简单的把成堆的出错代码或者资料完全转录到你的提问中。如果你有庞大而复杂的测试样例能重现程序挂掉的情境，尽量将它剪裁得越小越好。
 
@@ -401,7 +406,7 @@ Stack Exchange 已经成长到[超过一百个网站](https://stackexchange.com/
 ## 如何解读答案
 
 <a id="rtfm"></a>
-### RTFM 和 STFW：如何知道你已完全搞砸了 {#RTFM}
+### RTFM 和 STFW：如何知道你已完全搞砸了
 
 有一个古老而神圣的传统：如果你收到`RTFM（Read The Fucking Manual）`的回应，回答者认为你**应该去读他妈的手册**。当然，基本上他是对的，你应该去读一读。
 
@@ -503,7 +508,7 @@ Jeff Bigler 的观察总结和这个相关也值得一读 (**[tact filters](http
 回答：试试看就知道了。如果你试过，你就知道了答案，就不用浪费我的时间了。
 
 <a id="q5"></a>
-> 问题：我的{程序/设定/SQL 语句}没有用
+> 问题：我的程序/设定/SQL 语句没有用
 
 回答：这不算是问题吧，我对要我问你二十个问题才找得出你真正问题的问题没兴趣 —— 我有更有意思的事要做呢。在看到这类问题的时候，我的反应通常不外如下三种
 
@@ -633,104 +638,3 @@ Jeff Bigler 的观察总结和这个相关也值得一读 (**[tact filters](http
 ## 鸣谢
 
 Evelyn Mitchel 贡献了一些愚蠢问题例子并启发了编写`如何更好地回答问题`这一节， Mikhail Ramendik 贡献了一些特别有价值的建议和改进。
-
-<style>
-  /* 移动端优化的导航卡片 */
-  .mobile-pagination-card {
-    background: #ffffff;
-    border: 1px solid #e0e0e0;
-    border-radius: 12px;
-    padding: 1.2rem;
-    margin: 1.5rem 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  }
-
-  /* 左侧“上一章”区域 */
-  .prev-section {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    text-align: left;
-    padding-right: 1rem;
-  }
-
-  /* 右侧“下一章”区域 */
-  .next-section {
-    flex: 2; /* 右边占更多空间，因为标题通常更长 */
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    text-align: right;
-    padding-left: 1rem;
-  }
-
-  /* 类目小字（上一章/下一页） */
-  .cat-text {
-    font-size: 0.55rem;
-    color: #888;
-    margin-bottom: 0.25rem;
-    font-weight: normal;
-  }
-
-  /* 标题大字 */
-  .title-text {
-    font-size: 1rem; /* 手机上稍微大一点，便于点击 */
-    color: #2196F3; /* 蓝色表示链接 */
-    font-weight: 600;
-    text-decoration: none;
-    display: block;
-  }
-
-  /* 防止标题过长换行，超出部分隐藏（移动端重要） */
-  .title-text {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    max-width: 100%; /* 防止溢出 */
-  }
-
-  /* Hover效果（虽然手机没有hover，但为了平板或电脑浏览保留） */
-  .title-text:hover {
-    color: #1976D2;
-  }
-
-  /* 分隔线（可选，增加区分度） */
-  .divider-line {
-    width: 1px;
-    height: 24px;
-    background-color: #eee;
-    margin: 0 1rem;
-  }
-
-  @media (max-width: 480px) {
-    /* 更小的屏幕下调整内边距 */
-    .mobile-pagination-card {
-      padding: 1rem;
-    }
-    .title-text {
-      font-size: 0.75rem;
-    }
-  }
-</style>
-
-<!-- HTML 结构 -->
-<div class="mobile-pagination-card">
-  <!-- 左侧：上一章 -->
-  <a href="/download/" class="prev-section">
-    <span class="cat-text">上一页</span>
-    <span class="title-text">FCL与MC链接跳转</span>
-  </a>
-
-  <!-- 中间分隔线（可选，如果不需要可以删掉<div class="divider-line"></div>这一行） -->
-  <div class="divider-line"></div>
-
-  <!-- 右侧：下一章 -->
-  <a href="/others/" class="next-section">
-    <span class="cat-text">下一页</span>
-    <span class="title-text">额外补充</span>
-  </a>
-</div>
