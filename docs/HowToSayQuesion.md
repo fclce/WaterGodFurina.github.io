@@ -1,6 +1,6 @@
 # 提问的智慧
 
-> 注:此文章为GitHub转载，方便某些用户能看此内容
+> 注:此文章为GitHub转载，方便某些用户能看此内容  
 请耐心看完此文章，看不懂的地方请使用浏览器或AI搜索，而不是去询问群友
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/pulls)
@@ -18,48 +18,6 @@ Copyleft 2001 by D.H.Grand(nOBODY/Ginux), 2010 by Gasolin, 2015 by Ryan Wu
 本中文指南是基于原文 3.10 版以及 2010 年由 [Gasolin](https://github.com/gasolin) 所翻译版本的最新翻译；
 
 协助指出翻译问题，**请[发 issue](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/issues/new)，或直接[发 pull request](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/compare) 给我。**
-
-## [原文版本历史](history.md)
-
-## 目录
-  * [声明](#声明)
-  * [简介](#简介)
-  * [在提问之前](#在提问之前)
-  * [当你提问时](#当你提问时)
-    * [慎选提问的论坛](#慎选提问的论坛)
-    * [Stack Overflow](#stack-overflow)
-    * [网站和 IRC 论坛](#网站和-irc-论坛)
-    * [第二步，使用项目邮件列表](#第二步使用项目邮件列表)
-    * [使用有意义且描述明确的标题](#使用有意义且描述明确的标题)
-    * [使问题容易回复](#使问题容易回复)
-    * [使用清晰、正确、精准且合乎语法的语句](#使用清晰正确精准且合乎语法的语句)
-    * [使用易于读取且标准的文件格式发送问题](#使用易于读取且标准的文件格式发送问题)
-    * [精确地描述问题并言之有物](#精确地描述问题并言之有物)
-    * [话不在多而在精](#话不在多而在精)
-    * [别动辄声称找到 Bug](#别动辄声称找到-bug)
-    * [低声下气不能代替你的功课](#低声下气不能代替你的功课)
-    * [描述问题症状而非你的猜测](#描述问题症状而非你的猜测)
-    * [按发生时间先后列出问题症状](#按发生时间先后列出问题症状)
-    * [描述目标而不是过程](#描述目标而不是过程)
-    * [别要求使用私人电邮回复](#别要求使用私人电邮回复)
-    * [清楚明确地表达你的问题以及需求](#清楚明确地表达你的问题以及需求)
-    * [询问有关代码的问题时](#询问有关代码的问题时)
-    * [别把自己家庭作业的问题贴上来](#别把自己家庭作业的问题贴上来)
-    * [去掉无意义的提问句](#去掉无意义的提问句)
-    * [即使你很急也不要在标题写```紧急```](#即使你很急也不要在标题写紧急)
-    * [礼多人不怪，而且有时还很有帮助](#礼多人不怪而且有时还很有帮助)
-    * [问题解决后，加个简短的补充说明](#问题解决后加个简短的补充说明)
-  * [如何解读答案](#如何解读答案)
-    * [RTFM 和 STFW：如何知道你已完全搞砸了](#rtfm-和-stfw如何知道你已完全搞砸了)
-    * [如果还是搞不懂](#如果还是搞不懂)
-    * [处理无礼的回应](#处理无礼的回应)
-  * [如何避免扮演失败者](#如何避免扮演失败者)
-  * [不该问的问题](#不该问的问题)
-  * [好问题与蠢问题](#好问题与蠢问题)
-  * [如果得不到回答](#如果得不到回答)
-  * [如何更好地回答问题](#如何更好地回答问题)
-  * [相关资源](#相关资源)
-  * [鸣谢](#鸣谢)
 
 ## 声明
 
@@ -93,9 +51,9 @@ Copyleft 2001 by D.H.Grand(nOBODY/Ginux), 2010 by Gasolin, 2015 by Ryan Wu
 
 如果你决定向我们求助，当然你也不希望被视为失败者，更不愿成为失败者中的一员。能立刻得到快速并有效答案的最好方法，就是像赢家那样提问 —— 聪明、自信、有解决问题的思路，只是偶尔在特定的问题上需要获得一点帮助。
 
-（欢迎对本指南提出改进意见。你可以把你的建议发送至 [esr@thyrsus.com](esr@thyrsus.com) 或 [respond-auto@linuxmafia.com](respond-auto@linuxmafia.com)。然而请注意，本文并非[网络礼节](http://www.ietf.org/rfc/rfc1855.txt)的通用指南，而我们通常会拒绝无助于在技术论坛得到有用答案的建议）。
+（欢迎对本指南提出改进意见。你可以把你的建议发送至 [esr@thyrsus.com](mailto:esr@thyrsus.com) 或 [respond-auto@linuxmafia.com](mailto:respond-auto@linuxmafia.com)。然而请注意，本文并非[网络礼节](http://www.ietf.org/rfc/rfc1855.txt)的通用指南，而我们通常会拒绝无助于在技术论坛得到有用答案的建议）。
 
-## 在提问之前
+## 在提问之前 {#在提问之前}
 
 在你准备要通过电子邮件、新闻群组或者聊天室提出技术问题前，请先做到以下事情：
 
@@ -291,7 +249,7 @@ Stack Exchange 已经成长到[超过一百个网站](https://stackexchange.com/
 
 [Simon Tatham](http://www.chiark.greenend.org.uk/~sgtatham/) 写过一篇名为《[如何有效地报告Bug](http://www.chiark.greenend.org.uk/~sgtatham/bugs-cn.html)》的出色文章。强力推荐你也读一读。
 
-### 话不在多而在精
+### 话不在多而在精 {#话不在多而在精}
 
 你需要提供精确有内容的信息。这并不是要求你简单的把成堆的出错代码或者资料完全转录到你的提问中。如果你有庞大而复杂的测试样例能重现程序挂掉的情境，尽量将它剪裁得越小越好。
 
@@ -443,7 +401,7 @@ Stack Exchange 已经成长到[超过一百个网站](https://stackexchange.com/
 ## 如何解读答案
 
 <a id="rtfm"></a>
-### RTFM 和 STFW：如何知道你已完全搞砸了
+### RTFM 和 STFW：如何知道你已完全搞砸了 {#RTFM}
 
 有一个古老而神圣的传统：如果你收到`RTFM（Read The Fucking Manual）`的回应，回答者认为你**应该去读他妈的手册**。当然，基本上他是对的，你应该去读一读。
 
