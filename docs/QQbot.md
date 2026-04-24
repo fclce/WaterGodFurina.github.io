@@ -25,6 +25,26 @@ title: 机器人的使用
 
 > 如果星露未分析日志（即发送与日志无关内容，并且约45秒没回复），你可以再次@星露来进行日志分析
 
+### 使用链接分析日志
+
+除了发送日志文件，你还可以直接发送 **logshare 链接** 让星露分析：
+
+**使用方法：**
+```
+@星露 使用logshare skill技能分析 logshare.cn/xxxxx
+```
+
+**链接格式：**
+- `logshare.cn/ID` （如 `logshare.cn/L3K4M`）
+- 或者完整的 `https://logshare.cn/ID`
+
+**示例：**
+```
+@星露 使用logshare skill技能分析 logshare.cn/L3K4M
+```
+
+星露会自动获取链接内容并分析日志。
+
 错误示例
 
 ![错误示例](/img/AI2.jpg)
